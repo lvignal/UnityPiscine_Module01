@@ -10,7 +10,7 @@ This is a 3D platformer where 3 characters (cubes) have to cooperate to reach th
 The player can switch the controlled character (camera centered automatically on it).  
 
 ### Controls
-- Alpha1/2/3: select the controlled character 
+- Select the controlled character: Alpha1/2/3
 - Movement: AD or left/right arrows
 - Jump: Spacebar (no wall jump)
 - Reset level: R or backspace
