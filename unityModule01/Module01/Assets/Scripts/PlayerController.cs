@@ -75,10 +75,10 @@ namespace Module01.Character
             }
             
             // make the jump fall faster
-            if (_rigidBody.velocity.y < 0 && !_isOnGround)
+            if (_rigidBody.linearVelocity.y < 0 && !_isOnGround)
             {
                 float fallMultiplier = 3.0f;
-                _rigidBody.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+                _rigidBody.linearVelocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
             }
             
             // slide down the wall and avoid wall jump
